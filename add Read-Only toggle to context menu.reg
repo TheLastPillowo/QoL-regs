@@ -2,7 +2,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\*\shell\SetReadOnly]
 @="+ Read-Only"
-"Icon"="C:\\Windows\\System32\\shell32.dll,3"   ; adds icon to context menu
+"Icon"="C:\\Windows\\System32\\shell32.dll,3"
 
 [HKEY_CLASSES_ROOT\*\shell\SetReadOnly\command]
 @="cmd.exe /c attrib +r \"%1\""
@@ -11,7 +11,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\*\shell\RemoveReadOnly]
 @="- Read-Only"
-"Icon"="C:\\Windows\\System32\\shell32.dll,3"   ; adds icon to context menu
+"Icon"="C:\\Windows\\System32\\shell32.dll,3"
 
 [HKEY_CLASSES_ROOT\*\shell\RemoveReadOnly\command]
 @="cmd.exe /c attrib -r \"%1\""
