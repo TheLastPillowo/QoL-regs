@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Keyboard Layout\Preload]
+"1"="00000409"  ; US English (American Keyboard Layout)
+
+[HKEY_CURRENT_USER\Keyboard Layout\Substitutes]
+"00000409"="00020409"  ; US International (US English with International keyboard)
